@@ -1,0 +1,44 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ===== Virtual environments =====
+venv/
+env/
+.venv/
+ENV/
+
+# ===== Editor / backup files =====
+*.save
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# ===== Logs =====
+*.log
+/var/log/
+
+# ===== Environment / secrets =====
+.env
+*.key
+*.crt
+*.pem
+*.conf.bak
+
+# ===== VPN client configs (sensitive - don't commit) =====
+clients/
+*.ovpn
+*.conf
+
+# ===== OS junk =====
+.DS_Store
+Thumbs.db
+
+# ===== WGDashboard / WireGuard local data =====
+wg_api.py.save
+*.db
+*.sqlite3
